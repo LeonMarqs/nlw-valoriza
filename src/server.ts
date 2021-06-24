@@ -3,6 +3,10 @@ import express, { NextFunction, Request, Response } from "express";
 import "express-async-errors";
 import { router } from './routes';
 
+if (process.env.NODE_ENV !== 'production') {
+  require('dotenv').config();
+}
+
 import './database';
 
 const app = express();
