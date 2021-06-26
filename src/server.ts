@@ -12,6 +12,7 @@ if (process.env.NODE_ENV !== 'production') {
 import './database';
 
 const app = express();
+app.use(cors());
 
 app.use(express.json());
 
