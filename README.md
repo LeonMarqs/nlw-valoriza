@@ -1,4 +1,4 @@
-# NLW 5 - Valoriza - NodeJS
+# NLW 6 - Valoriza - NodeJS
 
 ## Sobre
 Aplicação back-end feita com NodeJs e TypeORM que faz o cadastro e listagem de usuários, elogios e tags, a fim das pessoas mandarem elogios umas para as outras.
